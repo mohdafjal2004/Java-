@@ -19,9 +19,9 @@ public class BinarySearch {
         }
 
         if (target < arr[mid]) {
-            return search(arr, target, start, mid - 1);// return the int type, most important for this recursion
+            return search(arr, target, start, mid - 1);
         }
-        return search(arr, target, mid + 1, end);// return the int type, most important for this recursion
+        return search(arr, target, mid + 1, end);
     }
 
 }
