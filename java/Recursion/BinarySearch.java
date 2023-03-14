@@ -15,7 +15,7 @@ public class BinarySearch {
         }
         int mid = start + (end - start) / 2;
         if (arr[mid] == target) {
-            return mid;// return the int type, most important for this recursion
+            return mid;
         }
 
         if (target < arr[mid]) {
