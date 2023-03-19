@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Easy.Factorial",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "Nto1",
+      "request": "launch",
+      "mainClass": "Easy.Nto1",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
       "name": "Fibonacci",
       "request": "launch",
       "mainClass": "Recursion.Fibonacci",
