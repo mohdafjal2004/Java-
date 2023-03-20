@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RotatedBS",
+      "request": "launch",
+      "mainClass": "ArrayRecursion.RotatedBS",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "DuplicatLinearSearch",
+      "request": "launch",
+      "mainClass": "ArrayRecursion.DuplicatLinearSearch",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "LinearSearch",
+      "request": "launch",
+      "mainClass": "ArrayRecursion.LinearSearch",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
       "name": "IsSorted",
       "request": "launch",
       "mainClass": "ArrayRecursion.IsSorted",

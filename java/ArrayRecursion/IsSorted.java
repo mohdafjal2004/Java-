@@ -14,4 +14,5 @@ public class IsSorted {
 
         return arr[index] < arr[index + 1] && sorted(arr, index + 1);
     }
+
 }
