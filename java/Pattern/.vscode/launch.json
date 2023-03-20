@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StepstoZero",
+      "request": "launch",
+      "mainClass": "Easy.StepstoZero",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "CountZeroes",
+      "request": "launch",
+      "mainClass": "Easy.CountZeroes",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "Easy.Palindrome",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "ReverseNumber1",
+      "request": "launch",
+      "mainClass": "Easy.ReverseNumber1",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "ReverseNumber",
+      "request": "launch",
+      "mainClass": "Easy.ReverseNumber",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "UnaryConcept",
+      "request": "launch",
+      "mainClass": "Easy.UnaryConcept",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "DigitProduct",
+      "request": "launch",
+      "mainClass": "Easy.DigitProduct",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "SumOfDigits",
+      "request": "launch",
+      "mainClass": "Easy.SumOfDigits",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
+      "name": "Sum",
+      "request": "launch",
+      "mainClass": "Easy.Sum",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
       "name": "Factorial",
       "request": "launch",
       "mainClass": "Easy.Factorial",
