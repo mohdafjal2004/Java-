@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IsSorted",
+      "request": "launch",
+      "mainClass": "ArrayRecursion.IsSorted",
+      "projectName": "java_70033e7d"
+    },
+    {
+      "type": "java",
       "name": "StepstoZero",
       "request": "launch",
       "mainClass": "Easy.StepstoZero",
