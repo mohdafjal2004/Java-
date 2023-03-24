@@ -2,7 +2,7 @@ package SortingRecursion;
 
 import java.util.Arrays;
 
-public class MergeSort {
+public class NormalMergeSort {
     public static void main(String[] args) {
         int[] arr = { 5, 4, 3, 2, 1 };
         arr = mergeStort(arr);// Updating the original array
