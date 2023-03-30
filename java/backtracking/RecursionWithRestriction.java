@@ -2,6 +2,8 @@ package backtracking;
 
 public class RecursionWithRestriction {
     public static void main(String[] args) {
+        boolean[][] board = { { true, true, true }, { true, false, true }, { true, true, true } };
+        pathRestrictions("", board, 0, 0);
 
     }
 
@@ -12,12 +14,17 @@ public class RecursionWithRestriction {
             return;
         }
 
-        if (row > 1) {
-            pathRestrictions(p + 'D', row - 1, col);// For left path
+        // or handling obstatcles
+        if (!maze[row][col]) { 
+            return;
         }
 
-        if (col > 1) {
-            pathRestrictions(p + 'R', row, col - 1);// For right path
+        if (row < maze.length - 1) {
+            pathRestrictions(p + 'D', maze, row + 1, col);// For down path
+        }
+
+        if (col < maze[0].length - 1) {
+            pathRestrictions(p + 'R', maze, row, col + 1);// For right path
         }
     }
 

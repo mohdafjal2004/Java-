@@ -19,9 +19,9 @@ public class Maze {
             return 1;
         }
 
-        int left = count(row - 1, col);
+        int down = count(row - 1, col);
         int right = count(row, col - 1);
-        return left + right;
+        return down + right;
     }
 
     // Printing the Actual path from (3,3) to (0,0)
@@ -32,7 +32,7 @@ public class Maze {
         }
 
         if (row > 1) {
-            path(p + 'D', row - 1, col);// For left path
+            path(p + 'D', row - 1, col);// For down path
         }
 
         if (col > 1) {
@@ -50,7 +50,7 @@ public class Maze {
 
         ArrayList<String> list = new ArrayList<>();
         if (row > 1) {
-            list.addAll(pathRet(p + 'D', row - 1, col));// For left path
+            list.addAll(pathRet(p + 'D', row - 1, col));// For down path
         }
 
         if (col > 1) {
@@ -70,7 +70,7 @@ public class Maze {
 
         ArrayList<String> list = new ArrayList<>();
         if (row > 1) {
-            list.addAll(pathRetDiagonal(p + 'V', row - 1, col));// For left path
+            list.addAll(pathRetDiagonal(p + 'V', row - 1, col));// For down path
         }
 
         if (col > 1) {
