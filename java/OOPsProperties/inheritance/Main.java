@@ -29,5 +29,8 @@ public class Main {
         // hence not allowed for child class to refer to parent class so it gives error
         // BoxWeight box6 = new Box(2, 3, 4);
         // System.out.println(box5);
+
+        BoxPrice box6 = new BoxPrice(5, 8, 200);
+
     }
 }
